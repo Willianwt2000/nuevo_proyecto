@@ -4,8 +4,7 @@ const CampoTexto = (props) => {
     console.log("Datos: ", props.titulo)
     return <div className="campo-texto">
         <label>{ props.titulo.toUpperCase() }</label>
-        <input placeholder={ placeHolderModificador }/>
-
+        <input placeholder={ placeHolderModificador } required={props.required}/>
     </div>
 }
 export default CampoTexto

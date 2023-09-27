@@ -22,7 +22,8 @@ const ListaOpciones =  () => {
     </div>
 }
 
-export default ListaOpciones
+export default ListaOpciones    
+    
 
 
 /*
